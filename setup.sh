@@ -198,7 +198,7 @@ function installGimp {
 function installTweaks {
   format_output "installing tweaks"
 
-  sudo apt install -y gnome-tweak-tool
+  sudo apt install gnome-tweaks 
 
   echo
 }
